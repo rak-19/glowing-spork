@@ -1,0 +1,10 @@
+tik=input('')
+tik=int(tik)
+if(tik<=20):
+  fact=1
+  while(tik>0):
+    fact=fact*tik
+    tik=tik-1
+  print(fact)
+else:
+  print("INVALID")
