@@ -1,0 +1,12 @@
+rak=int(input())
+temprk=rak
+rak<=1000
+revrk=0
+while(rak>0):
+  digrk=rak%10
+  revrk=revrk*10+digrk
+  rak=rak//10
+if(temprk==revrk):
+  print("yes")
+else:
+    print("no")
